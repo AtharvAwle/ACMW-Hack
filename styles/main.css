@@ -1,3 +1,16 @@
+.acm-w-logo{
+    height: 150px;
+    padding-top: 50px;
+}
+.Center{
+    background-color: #154787 !important;
+}
+#prizes{
+    
+}
+
+
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 body, html {
@@ -1838,7 +1851,7 @@ a:hover{
     width: 24%;
     height: 300px;
     margin: 0 4.6%;
-    background: url(../images/5960.png) center top/cover no-repeat #000;
+    background-color: #4077c0;
     border: none;
     border-radius: 8px;
 }
