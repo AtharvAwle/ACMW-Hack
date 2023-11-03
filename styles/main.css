@@ -1,6 +1,6 @@
 .acm-w-logo{
-    height: 200px;
-    padding-top: 40px;
+    height: 130px;
+    padding-top:10px;
 }
 .Center{
     /* background-color: #154787 !important; */
@@ -9,7 +9,81 @@
 #prizes{
     
 }
+/* Prize section */
+#prize-card{
+    padding: 100px;
+}
+@media screen and (max-width: 440px)
+{
+    .card {
+        margin-left: -50px !important;
+        margin-top: 150px !important;
+      }
+}
+  
+  .card {
+    margin-left: 50px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    width: 260px;
+    border-radius: 20px;
+    padding: 160px 20px 20px 20px;
+    position: relative;
+    transition-duration: 200ms;
+    background-color: white;
+  }
+  
+  .card .content p {
+    color: #888888;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  
+  .img {
+    transition-duration: 200ms;
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    left: 10px;
+    background: rgb(255, 0, 99);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 0, 99, 1) 35%,
+      rgba(247, 32, 32, 1) 100%
+    );
+    top: -50px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px #999999;
+  }
+  
+  .card:hover .img {
+    transform: scale(1.2) translateX(-70px) translateY(60px);
+    width: 100px;
+    z-index: 0;
+    height: 100px;
+    border-radius: 50px;
+  }
+  .card:hover {
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  .card:hover h5 {
+    display: none;
+  }
+  .card:hover .content {
+    z-index: 6;
+  }
+  .card .content h5 {
+    float: right;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
 
+
+
+
+/* prize section */
 
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -276,7 +350,7 @@ table {
 
 .register
 {
-    font-size: 23px;
+    font-size: 2px;
     letter-spacing: 1px;
     border:2px solid white;
     padding: 10px 18px;
