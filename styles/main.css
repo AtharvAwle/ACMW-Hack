@@ -73,11 +73,11 @@
     width: 280px;
     height: 200px;
     left: 10px;
-    background: rgb(255, 0, 99);
+    background: #39B5FB;
     background: linear-gradient(
       90deg,
-      rgba(255, 0, 99, 1) 35%,
-      rgba(247, 32, 32, 1) 100%
+      #39B5FB 35%,
+      #1156FB 100%
     );
     top: -50px;
     border-radius: 20px;
@@ -103,7 +103,7 @@
   }
   .card .content h5 {
     float: right;
-    color: red;
+    color: #39B5FB;
     font-weight: bold;
     font-size: 20px;
   }
